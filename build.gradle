@@ -17,7 +17,7 @@ android {
     buildToolsVersion "22.0.1"
     defaultConfig {
         applicationId "com.joehalliwell.aphorismer"
-        minSdkVersion 10
+        minSdkVersion 7
         targetSdkVersion 23
         versionCode 4
         versionName '1.0.3'

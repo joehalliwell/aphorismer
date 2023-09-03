@@ -6,7 +6,7 @@
              android:background="#000"
              tools:context=".DisplayAphorism">
 
-    <android.support.v7.widget.Toolbar
+    <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
@@ -15,15 +15,15 @@
         app:theme="@style/ThemeOverlay.AppCompat.Dark"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
        >
-    </android.support.v7.widget.Toolbar>
+    </androidx.appcompat.widget.Toolbar>
 
     <!-- The primary full-screen view. This can be replaced with whatever view
          is needed to present your content, e.g. VideoView, SurfaceView,
          TextureView, etc. -->
-    <android.support.v4.view.ViewPager
+    <androidx.viewpager.widget.ViewPager
         android:id="@+id/aphorism_pager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/toolbar">
-    </android.support.v4.view.ViewPager>
+    </androidx.viewpager.widget.ViewPager>
 </RelativeLayout>

@@ -2,7 +2,7 @@ package com.joehalliwell.aphorismer;
 
 
 import android.content.Context;
-import android.support.v7.widget.ShareActionProvider;
+import androidx.appcompat.widget.ShareActionProvider;
 import android.view.View;
 
 public class PlainShareActionProvider extends ShareActionProvider {
